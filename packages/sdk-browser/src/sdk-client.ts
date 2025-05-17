@@ -9,13 +9,13 @@ import {
   type TurnkeySDKBrowserConfig,
   type User,
   type ReadWriteSession,
-  Session,
   TurnkeyRequestError,
   Stamper,
   IframeClientParams,
   PasskeyClientParams,
-  SessionType,
 } from "./__types__/base";
+
+import { Session, SessionType } from "@turnkey/sdk-types";
 
 import type { SubOrganization } from "@models";
 

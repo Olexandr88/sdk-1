@@ -1,11 +1,12 @@
 import WindowWrapper from "@polyfills/window";
 import type {
   AuthClient,
-  Session,
   User,
   ReadWriteSession,
   TSessionResponse,
 } from "./__types__/base";
+
+import type { Session } from "@turnkey/sdk-types";
 
 export enum StorageKeys {
   AuthBundle = "@turnkey/auth_bundle", // DEPRECATED

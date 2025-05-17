@@ -125,8 +125,6 @@ export {
   type User,
   type ReadOnlySession,
   type ReadWriteSession,
-  type Session,
-  SessionType,
   AuthClient,
 } from "./__types__/base";
 

@@ -1915,6 +1915,9 @@ importers:
       '@turnkey/iframe-stamper':
         specifier: workspace:*
         version: link:../iframe-stamper
+      '@turnkey/sdk-types':
+        specifier: workspace:*
+        version: link:../sdk-types
       '@turnkey/wallet-stamper':
         specifier: workspace:*
         version: link:../wallet-stamper
@@ -1973,6 +1976,9 @@ importers:
       '@turnkey/sdk-server':
         specifier: workspace:*
         version: link:../sdk-server
+      '@turnkey/sdk-types':
+        specifier: workspace:*
+        version: link:../sdk-types
       '@turnkey/wallet-stamper':
         specifier: workspace:*
         version: link:../wallet-stamper
@@ -2043,6 +2049,9 @@ importers:
       '@turnkey/http':
         specifier: workspace:*
         version: link:../http
+      '@turnkey/sdk-types':
+        specifier: workspace:*
+        version: link:../sdk-types
       '@turnkey/wallet-stamper':
         specifier: workspace:*
         version: link:../wallet-stamper

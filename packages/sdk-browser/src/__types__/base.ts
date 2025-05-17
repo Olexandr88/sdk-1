@@ -1,5 +1,6 @@
 import type { TActivityId, TActivityStatus } from "@turnkey/http";
 import type { WalletInterface, WalletStamper } from "@turnkey/wallet-stamper";
+import type { SessionType } from "@turnkey/sdk-types";
 import type * as SdkApiTypes from "../__generated__/sdk_api_types";
 import type { WebauthnStamper } from "@turnkey/webauthn-stamper";
 import type { IframeStamper } from "@turnkey/iframe-stamper";
@@ -16,19 +17,6 @@ export enum MethodType {
   List,
   Command,
 }
-
-export enum SessionType {
-  READ_ONLY = "SESSION_TYPE_READ_ONLY",
-  READ_WRITE = "SESSION_TYPE_READ_WRITE",
-}
-
-export type Session = {
-  sessionType: SessionType;
-  userId: string;
-  organizationId: string;
-  expiry: number; // Unix timestamp representing the expiry of the session set by the server
-  token: string; // credentialBundle (read-write) or read token
-};
 
 /**
  * This interface defines the structure of user data that will be stored in local storage
